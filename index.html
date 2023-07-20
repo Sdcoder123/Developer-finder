@@ -4,9 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Developers Profiles</title>
+    <title>GitHub Profiles</title>
+    <style>
+      .stylish-container {
+          display: inline-block; /* Ensures the container shrinks to fit the content */
+          transition: transform 0.3s ease;
+      }
+
+      .stylish-container:hover {
+          transform: scale(1.2) rotate(10deg);
+      }
+
+      .stylish-name {
+          font-family: 'Arial', sans-serif;
+          font-size: 24px;
+          color: #ff3366;
+          text-shadow: 2px 2px 4px #999;
+      }
+  </style>
   </head>
   <body>
+    <div class="stylish-container">
+      <p class="stylish-name">Developer-Finder 👨‍💻</p>
+  </div>
     <img src="logo.jpg" alt="" height="500" width="700">
     <form class="user-form" id="form">
       <input type="text" placeholder="Developers are waiting for your query" id="search" />
