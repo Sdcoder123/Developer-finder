@@ -46,7 +46,7 @@ body {
 }
 
 .card {
-  max-width: 600px;
+  max-width: 900px;
   background-color: hsla(104, 92%, 53%, 0.675);
   border-radius: 20px;
   box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
