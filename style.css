@@ -47,7 +47,7 @@ body {
 
 .card {
   max-width: 800px;
-  background-color: #4c2885;
+  background-color: hsla(104, 92%, 53%, 0.675);
   border-radius: 20px;
   box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
     0 15px 40px rgba(0, 0, 0, 0.1);
@@ -93,7 +93,7 @@ body {
 .repo {
   text-decoration: none;
   color: #fff;
-  background-color: #212a72;
+  background-color: #bcad2a;
   font-size: 0.7rem;
   padding: 0.25rem 0.5rem;
   margin-right: 0.5rem;
